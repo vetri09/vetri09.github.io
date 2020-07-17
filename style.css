@@ -7,7 +7,7 @@
 header nav{
     height: 10vh;
     min-height: 20px;
-    background-color: #900C3F;
+    background-color: #d3700c;
     display: flex;
     justify-content: space-around;
     text-transform: uppercase;
@@ -22,20 +22,18 @@ header a{
     text-decoration: none;
     color: black;
 }
-header ul{
+ ul{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
     width: 30%;
 }
-header ul li{
+ul li{
     padding:5px 10px;
-    background-color: lightcoral;
-    border: 2px solid lightcoral;
 }
 header ul li:hover{
-    background-color: rgb(224, 94, 94);
-    border: 2px solid rgb(224, 94, 94);
+    border-radius: 3px;
+    border-bottom: 2px solid black;
 }
 section .container{
     background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
@@ -101,4 +99,17 @@ section a{
     text-decoration: none;
     color: white;
 }
+section p .mail{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+section i:hover{
+    color: #d3700c;
+}
 /* About me page */
+h2{
+    padding-top: 30px;
+}
