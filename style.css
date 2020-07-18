@@ -4,10 +4,15 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
+body{
+    background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
 header nav{
     height: 10vh;
     min-height: 20px;
     background-color: #d3700c;
+    /* background: -webkit-linear-gradient(to right, #0b486b, #f56217); 
+    background: linear-gradient(to right, #0b486b, #f56217); */
     display: flex;
     justify-content: space-around;
     text-transform: uppercase;
@@ -22,7 +27,7 @@ header a{
     text-decoration: none;
     color: black;
 }
- ul{
+ul{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -36,14 +41,16 @@ header ul li:hover{
     border-bottom: 2px solid black;
 }
 section .container{
-    background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     color:whitesmoke;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
 }
 section h1{ 
     font-size: 30px;
@@ -113,6 +120,37 @@ section i:hover{
 h2{
     padding-top: 30px;
 }
-section img{
-    height: 60%;
+.logo{
+    height: 80px;
+    width: 80px;
+}
+/* Projects page */
+.description{
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+    font-size: 30px;
+}
+.description img.website{
+    width: 500px;
+    height: 300px;
+}
+.description p{
+    padding-right: 20px;
+}
+.description p button{
+    margin: 20px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    background-color:#48798b;
+    background:linear-gradient(to bottom, #447a8d 5%, #0f7183 100%);
+    border-radius: 8px;
+}
+.description p button:hover{
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color:#30626b;
+}
+.link{
+    color: cadetblue;
 }
