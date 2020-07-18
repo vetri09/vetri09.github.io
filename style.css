@@ -93,7 +93,7 @@ section ul{
     display: flex;
     justify-content: space-evenly;
     padding-top: 20px;
-    width: 200px;
+    width: 50%;
 }
 section a{
     text-decoration: none;
@@ -112,4 +112,7 @@ section i:hover{
 /* About me page */
 h2{
     padding-top: 30px;
+}
+section img{
+    height: 60%;
 }
