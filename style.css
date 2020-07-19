@@ -3,14 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    color: rgb(136, 118, 84);
 }
 body{
-    background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 header nav{
     height: 10vh;
     min-height: 20px;
-    background-color: #d3700c;
+    background-color: rgb(31, 31, 31);
     /* background: -webkit-linear-gradient(to right, #0b486b, #f56217); 
     background: linear-gradient(to right, #0b486b, #f56217); */
     display: flex;
@@ -33,6 +34,10 @@ ul{
     justify-content: space-evenly;
     width: 30%;
 }
+.visited{
+    border-radius: 3px;
+    border-bottom: 2px solid black;
+}
 ul li{
     padding:5px 10px;
 }
@@ -41,7 +46,6 @@ header ul li:hover{
     border-bottom: 2px solid black;
 }
 section .container{
-    color:whitesmoke;
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -72,9 +76,11 @@ section .resume{
     text-shadow:0px 1px 0px #254652;
     box-shadow: 0px 10px 14px -7px #244950;
     cursor:pointer;
+    color: rgb(16, 69, 77);
 }
-section button .icon{
+.icon{
     padding-left: 10px;
+    color: rgb(16, 69, 77);
 }
 section button:hover{
     background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
@@ -91,9 +97,6 @@ footer{
     color: rgb(202, 202, 202);
     background-color: rgb(31, 31, 31);
 }
-.blue{
-    color: black;
-}
 /* Contact page */
 section ul{
     list-style: none;
@@ -104,17 +107,19 @@ section ul{
 }
 section a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
-section p .mail{
+/* section p .mail{
     display: flex;
     height: 50px;
     width: 300px;
-    justify-content: space-evenly;
     padding-top: 20px;
+} */
+button i{
+    color: rgb(16, 69, 77);
 }
 section i:hover{
-    color: #d3700c;
+    color: #094352;
 }
 /* About me page */
 h2{
@@ -146,6 +151,8 @@ h2{
     background-color:#48798b;
     background:linear-gradient(to bottom, #447a8d 5%, #0f7183 100%);
     border-radius: 8px;
+    color: rgb(0, 34, 39);
+    font-weight: bold;
 }
 .description p button:hover{
     background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
